@@ -3,8 +3,7 @@ import { books } from "./data";
 
 const BookList = () => {
   const getBook = (id) => {
-    let book = books.find((book) => book.id == id);
-    console.log(book);
+    let book = books.find((book) => book.id === id);
   };
   return (
     <>

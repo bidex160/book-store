@@ -14,7 +14,7 @@ const Book = (props) => {
 };
 
 const Image = ({ src }) => {
-  return <img src={src} alt="Image" />;
+  return <img src={src} alt="book" />;
 };
 const Title = ({ title }) => {
   return <h2>{title} </h2>;
